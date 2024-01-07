@@ -15,12 +15,12 @@ jobs:
           - windows-latest
           - ubuntu-latest
         python-version-windows:
-          - 3.9
-          - 3.10
-          - 3.11
+          - "3.9"
+          - "3.10"
+          - "3.11"
         python-version-ubuntu:
-          - 3.9
-          - 3.11
+          - "3.9"
+          - "3.11"
 
     steps:
       - name: Set up Python
