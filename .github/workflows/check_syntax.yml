@@ -32,5 +32,4 @@ jobs:
         
       - name: Run flake8
         run: |
-          cd
-          flake8 /home/krd/repozytorium_lab4/np_lab_04/app_zad2.py
+          flake8 app_zad2.py
