@@ -31,4 +31,6 @@ jobs:
         run: python --version
         
       - name: Run flake8
-        run: flake8 /KURDYN/np_lab_04/blob/main/app_zad2.py
+        run: |
+          cd
+          flake8 /home/krd/repozytorium_lab4/np_lab_04/app_zad2.py
