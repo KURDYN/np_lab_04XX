@@ -30,5 +30,8 @@ jobs:
       - name: Display Python version
         run: python --version
 
+      - name: Copy app.py for analysis
+        run: cp app_zad2.py /tmp
+        
       - name: Run flake8
-        run: flake8 /tmp/app.py
+        run: flake8 /tmp/app_zad2.py
