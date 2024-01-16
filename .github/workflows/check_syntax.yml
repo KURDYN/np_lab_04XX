@@ -29,9 +29,6 @@ jobs:
 
       - name: Display Python version
         run: python --version
-
-      - name: Copy app.py for analysis
-        run: cp /KURDYN/np_lab_04/blob/main/app_zad2.py /tmp
         
       - name: Run flake8
-        run: flake8 /tmp/app_zad2.py
+        run: flake8 /KURDYN/np_lab_04/blob/main/app_zad2.py
