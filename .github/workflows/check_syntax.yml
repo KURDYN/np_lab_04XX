@@ -32,4 +32,4 @@ jobs:
         
       - name: Run flake8
         run: |
-          flake8 "app_zad2.py"
+          flake8 np_lab_04
