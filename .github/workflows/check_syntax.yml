@@ -33,3 +33,4 @@ jobs:
       - name: Run flake8
         run: |
           python3.11 -m flake8
+          python3.11 -m flake8 app_zad2.py
