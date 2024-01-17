@@ -32,4 +32,4 @@ jobs:
         
       - name: Run flake8
         run: |
-          flake8 np_lab_04
+          flake8
