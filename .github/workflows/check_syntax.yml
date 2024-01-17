@@ -32,4 +32,4 @@ jobs:
         
       - name: Run flake8
         run: |
-          flake8 $GITHUB_WORKSPACE/app_zad2.py
+          python3.11 -m flake8
